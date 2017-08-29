@@ -24,6 +24,7 @@
 .icon-playlistadd:before { content: "\ecae"; }
 .icon-delete:before { content: "\e61b"; }
 .icon-trophy:before { content: "\e80b"; }
+.icon-forum:before { content: "\eb97"; }
 
 span {
     display: inline-block;
@@ -50,9 +51,17 @@ span {
     margin: 0; 
 }
 
-h1, h2, h3, h4, h5 {
+h2 {
     font-weight: 500;
     color: #3E84C2;
+
+    line-height: 1.5;
+}
+
+h1, h4, h3, h5{
+    font-weight: 500;
+    color: #3E84C2;
+
     line-height: 1.5;
 }
 
